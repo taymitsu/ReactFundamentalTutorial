@@ -1,0 +1,14 @@
+.Footer {
+	display: flex;
+	align-items: flex-start;
+	box-sizing: border-box;
+	padding: 1em;
+	background-color: lavender;
+	font-family: Helvetica;
+  font-size: 8px;
+	color: #000080;
+}
+
+.Footer > div {
+	text-align: left;
+}
