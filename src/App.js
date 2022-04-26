@@ -1,4 +1,5 @@
 //import logo from './logo.svg';
+import { Outlet } from 'react-router-dom'
 import './App.css';
 import Title from './Title'
 import POPOSList from './POPOSList';
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Title />
       <POPOSList />
+      <Outlet />
       <Footer />
     </div>
   );
